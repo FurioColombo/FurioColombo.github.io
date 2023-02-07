@@ -120,9 +120,10 @@
       </div>
     </div>
     <h1 :style="titleComputedStyle">Demo</h1>
-    <div class="controls_section">
+    <div class="demo_section">
       <div class="controls_section_col_1" :style="controls_section_col_1_style"></div>
-      <div class="controls_section_col_2"></div>
+      <div class="controls_section_col_2">
+        Song demo create using exclusively signature sounds from ZenytPolisint available <a href="https://www.youtube.com/watch?v=cjMXcdHnGRU">here</a>    </div>
       <div class="controls_section_col_3" :style="controls_section_col_3_style"></div>
     </div>
 
@@ -313,6 +314,16 @@ h1 {
   margin-bottom: 5vw;
 }
 
+
+.demo_section {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 1.8fr 5fr 1.8fr;
+  height: 20%;
+  width: 100%;
+  font-family: monospace;
+}
+
 .ul {
   list-style-type: circle;
 }
@@ -321,7 +332,7 @@ h1 {
   display: inline-grid;
   grid-template-rows: 0.12fr 2fr 2fr;
   width: 100%;
-  height: 145%;
+  height: 185%;
 }
 
 .routing_description {

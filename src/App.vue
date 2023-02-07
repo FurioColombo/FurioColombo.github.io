@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     openAbout() {
-      window.open("http://localhost:8080/about")
+      // window.open("http://localhost:8080/about") todo: about page routing working only on localhost
     }
   }
 };

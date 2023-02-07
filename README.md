@@ -1,4 +1,4 @@
-# PolisinT
+# Zenyth PolisinT
 
 [PolisinT](https://furiocolombo.github.io/zenyth_polisint/) is a semi-modular online polyphonic synthesizer available built using Tone.js, a JavaScript library for audio synthesis and composition and the framework Vue.
 
